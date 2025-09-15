@@ -1,0 +1,7 @@
+{
+  "host": "145.223.98.97",
+  "port": 3306,
+  "database": "bms",
+  "user": "bms",
+  "password": "bms2025"
+}

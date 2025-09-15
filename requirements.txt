@@ -1,0 +1,19 @@
+# متطلبات محول كتب الشاملة
+# Shamela Books Converter Requirements
+
+# قاعدة البيانات - Database Connectivity
+pyodbc>=4.0.35
+mysql-connector-python>=8.0.33
+
+# واجهة المستخدم - User Interface
+# tkinter (مضمن مع Python - included with Python)
+
+# أدوات البناء - Build Tools  
+PyInstaller>=5.10.1
+cx-Freeze>=6.14.9
+
+# أدوات Windows - Windows Tools
+pywin32>=305
+
+# معالجة الملفات - File Processing
+pathlib2>=2.3.7
