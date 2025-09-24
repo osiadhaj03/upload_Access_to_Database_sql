@@ -1,0 +1,18 @@
+# متطلبات محول كتب الشاملة
+# Shamela Books Converter Requirements
+
+# قواعد البيانات - Database libraries
+pyodbc>=4.0.35
+mysql-connector-python>=8.0.33
+
+# مكتبة بديلة لـ MySQL (للحالات الطارئة)
+PyMySQL>=1.0.2
+
+# واجهة المستخدم - GUI (مضمنة مع Python عادة)
+# tkinter - Built-in with Python
+
+# بناء التطبيق - Build tools
+pyinstaller>=5.13.0
+
+# أدوات إضافية - Additional utilities
+pathlib2>=2.3.7; python_version<"3.6"

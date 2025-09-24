@@ -72,7 +72,7 @@ def test_simple_bok(bok_file):
     """اختبار Simple BOK Support"""
     try:
         sys.path.append(os.path.join(os.path.dirname(__file__), '..', '..', 'src'))
-        from simple_bok_support import SimpleBokProcessor
+        from Trash.simple_bok_support import SimpleBokProcessor
         
         processor = SimpleBokProcessor()
         result = processor.extract_from_bok(bok_file)

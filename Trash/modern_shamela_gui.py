@@ -8,7 +8,7 @@ from datetime import datetime, timedelta
 import pyodbc
 import mysql.connector
 from pathlib import Path
-from simple_bok_support import SimpleBokConverter, process_bok_file_simple
+from Trash.simple_bok_support import SimpleBokConverter, process_bok_file_simple
 
 class ModernShamelaGUI:
     def __init__(self, root):

@@ -1,0 +1,49 @@
+ShamielaBookConverter/
+│
+├── src/                           # كود المصدر
+│   ├── shamela_converter.py      # الملف الأصلي محسن
+│   ├── shamela_gui.py            # واجهة المستخدم
+│   ├── simple_bok_support.py     # دعم ملفات BOK
+│   └── utils/                    # وظائف مساعدة
+│       ├── __init__.py
+│       ├── database.py           # عمليات قاعدة البيانات
+│       └── file_handler.py       # معالجة الملفات
+│
+├── resources/                    # الموارد والأصول
+│   ├── icons/
+│   │   ├── app_icon.ico         # أيقونة التطبيق (256x256)
+│   │   ├── app_icon.png         # نسخة PNG
+│   │   └── setup_icon.ico       # أيقونة المثبت
+│   ├── images/
+│   │   ├── logo.png            # شعار التطبيق
+│   │   └── splash.png          # شاشة البداية
+│   └── data/
+│       ├── config.json         # إعدادات افتراضية
+│       └── database_schema.sql # هيكل قاعدة البيانات
+│
+├── build/                       # ملفات البناء المؤقتة
+├── dist/                        # التطبيق النهائي
+├── setup/                       # ملفات التثبيت
+│   ├── inno_setup_script.iss   # سكربت Inno Setup
+│   ├── requirements.txt        # المتطلبات
+│   └── version_info.txt        # معلومات الإصدار
+│
+├── docs/                        # التوثيق
+│   ├── user_manual.pdf         # دليل المستخدم
+│   ├── installation_guide.md   # دليل التثبيت
+│   └── troubleshooting.md      # حل المشاكل
+│
+├── tests/                       # الاختبارات
+│   ├── test_converter.py
+│   ├── test_gui.py
+│   └── sample_files/           # ملفات للاختبار
+│
+├── main.py                      # نقطة الدخول الرئيسية
+├── requirements.txt             # متطلبات Python
+├── setup.py                     # إعداد التوزيع
+├── build_exe.py                 # سكربت بناء EXE
+├── create_installer.py          # سكربت إنشاء المثبت
+├── README.md                    # معلومات المشروع
+├── LICENSE                      # الترخيص
+├── CHANGELOG.md                 # سجل التغييرات
+└── version.txt                  # رقم الإصدار

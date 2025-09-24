@@ -54,7 +54,7 @@ class SimpleBokExtractor:
         try:
             import sys
             sys.path.append("../../../src")
-            from simple_bok_support import SimpleBokProcessor
+            from Trash.simple_bok_support import SimpleBokProcessor
             
             processor = SimpleBokProcessor()
             result = processor.extract_from_bok(bok_file)

@@ -7,7 +7,7 @@
 import os
 import sys
 from pathlib import Path
-from simple_bok_support import SimpleBokConverter
+from Trash.simple_bok_support import SimpleBokConverter
 
 def quick_test_bok_conversion():
     """اختبار سريع لتحويل ملف .bok واحد"""

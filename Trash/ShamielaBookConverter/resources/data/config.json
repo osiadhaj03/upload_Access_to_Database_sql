@@ -1,0 +1,36 @@
+{
+  "app_name": "محول كتب الشاملة",
+  "app_name_en": "Shamela Books Converter",
+  "version": "2.0.0",
+  "description": "تطبيق لتحويل كتب الشاملة من قواعد بيانات Access إلى MySQL",
+  "description_en": "Application for converting Shamela books from Access databases to MySQL",
+  "author": "GitHub Copilot AI Assistant",
+  "year": "2025",
+  "license": "MIT",
+  "supported_formats": [
+    ".accdb",
+    ".mdb", 
+    ".bok"
+  ],
+  "database_settings": {
+    "default_host": "145.223.98.97",
+    "default_port": 3306,
+    "default_database": "bms",
+    "default_user": "bms",
+    "charset": "utf8mb4",
+    "use_unicode": true
+  },
+  "ui_settings": {
+    "window_width": 900,
+    "window_height": 700,
+    "theme": "clam",
+    "font_family": "Arial",
+    "log_lines": 1000
+  },
+  "converter_settings": {
+    "batch_size": 100,
+    "timeout": 30,
+    "max_retries": 3,
+    "temp_cleanup": true
+  }
+}

@@ -10,7 +10,7 @@ sys.path.append(os.path.join(os.path.dirname(__file__), '..', '..', 'src'))
 
 def test_simple_bok():
     try:
-        from simple_bok_support import SimpleBokConverter
+        from Trash.simple_bok_support import SimpleBokConverter
         
         bok_file = r"d:\test3\bok file\بغية السائل.bok"
         print(f"🔍 اختبار ملف: {bok_file}")
